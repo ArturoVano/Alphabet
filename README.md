@@ -17,30 +17,30 @@ Dispone de dos modos que se pueden cambiar con dos botones:
 
 ## CSS
 la configuración en css le da un diseño de neón en modo oscuro.
-Todos los elementos de la app tienen un estilo aplicado,
+Todos los elementos de la app tienen un estilo aplicado.
 
 ## WebPack
 Siempre me gusta usar Webpack con toda aplicación de vanilla JavaScript pues los frameworks modernos ya lo utilizan por defecto, da más facilidad para escalar la aplicación, es como sería en una producción real y puedo aprender más de esta herramienta de paquete de módulos.
 
 Los modulos de node no irán a producción, si no que son dependencias de desarrollo
 
-npm run build:dev para el build de desarrollo
-npm run build para el build de producción
+**npm run build:dev** para el build de desarrollo
+**npm run build** para el build de producción
 
 ### Módulos instalados
 
-Babel traduce JavaScript moderno al estándard ES5 para los navegadores que no soporten las nuevas características. Babel es usado para el webpack de producción, no en el de desarrollo.
+- Babel traduce JavaScript moderno al estándard ES5 para los navegadores que no soporten las nuevas características. Babel es usado para el webpack de producción, no en el de desarrollo.
 
-html-loader y html-webpack-plugin para mover el index.html a la carpeta de prducción cuando hacemos el build para producción con npm run build
+- html-loader y html-webpack-plugin para mover el index.html a la carpeta de prducción cuando hacemos el build para producción con npm run build.
 
-webpack-dev-server permite lanzar la aplicación en un servidor localhost para desarrollo con el comando npm start.
+- webpack-dev-server permite lanzar la aplicación en un servidor localhost para desarrollo con el comando **npm start**.
 
-css-loader y style-loader permiten añadir CSS al DOM de producción.
+- css-loader y style-loader permiten añadir CSS al DOM de producción.
 
-mini-css-extract-plugin crea un archivo CSS para producción por cada archivo JS que requiera CSS 
+- mini-css-extract-plugin crea un archivo CSS para producción por cada archivo JS que requiera CSS.
 
-file-loader para cargar correctamente las imagenes en el build
+- file-loader para cargar correctamente las imagenes en el build.
 
-copy-webpack-plugin copia archivos y directorios al directorio del build, me sirve para las imagenes en la carpeta img
+- CopyWebpackPlugin copia archivos y directorios al directorio del build, me sirve para las imagenes en la carpeta img.
 
-CssMinimizerWebpackPlugin y TerserWebpackPlugin para  optimizar y minimizar el CSS y JS.
+- CssMinimizerWebpackPlugin y TerserWebpackPlugin para optimizar y minimizar el CSS y JS.
