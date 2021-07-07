@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #1E213A; 
+    color: white;
+ } 
+
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    background: #191919;
+    text-align: center;
+    font-size: 20px;
+}
+
+.box h4 {
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px whitesmoke;
+}
+
+.box h2 {
+    text-shadow: 0 0 20px #ff005b;
+}
+
+.box input[ type = "text" ] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    color: white;
+}
+
+.box input[ type = "text" ]:focus {
+    width: 280px;
+    border-color: #2ecc71;
+
+}
+
+.box input[ type = "submit" ] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    color: white;
+}
+
+.box input[ type = "submit" ]:hover {
+    background: #2ecc71;
+}
+
+.error {
+    color: white;
+    background-color: #ff005b;
+    box-shadow: 0 0 10px #ff005b;
+    margin-top: 50px;
+}
+
+.success {
+    color: white;
+    background-color: #2ecc71;
+    box-shadow: 0 0 10px #2ecc71;
+    margin-top: 50px;
+}
+
+.box input[ type = "button" ] {
+    width: 120px;
+    height: 40px;
+    margin: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+} 
+
+.btnActive {
+    background: #18f0c1;
+    box-shadow: 0 0 5px #18f0c1;
+}
+
+.btnChange {
+    background: #1E213A;
+    color: white;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.btnChange:hover {
+    box-shadow: 0 0 4px white;
+    text-shadow: 0 0 2px white;
+}
+
+footer {
+    padding: 20px;
+    color: lightgray;
+    font-style: italic;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate( -50% );
+    
+}
