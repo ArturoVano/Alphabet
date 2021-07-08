@@ -24,8 +24,9 @@ Siempre me gusta usar Webpack con toda aplicación de vanilla JavaScript pues lo
 
 Los modulos de node no irán a producción, si no que son dependencias de desarrollo
 
-**npm run build:dev** para el build de desarrollo
-**npm run build** para el build de producción
+**npm run build:dev** para el build de desarrollo.
+**npm run build** para el build de producción.
+**npm start** para iniciar la app.
 
 ### Módulos instalados
 
